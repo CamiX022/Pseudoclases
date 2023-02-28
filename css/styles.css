@@ -1,0 +1,920 @@
+*{
+    box-sizing:border-box ;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+}
+
+header{
+    background-color: lightblue;
+    height: 10vh;
+}
+
+
+section01{
+    background-color: green;
+    height: 25vh;
+    text-align: center;
+    border: 2px solid black;
+}
+
+a:link { color: blue; }          /* Enlaces no visitados */
+a:visited { color: rebeccapurple; }     /* Enlaces visitados */
+a:hover { background: yellow; }  /* El usuario esta sobre el enlace */
+a:active { color: lime; }        /* Enlaces activos */
+
+section02{
+    background-color: lightblue;
+    height: 25vh;
+    text-align: center;
+    border: 2px solid black;
+}
+
+a:any-link {
+    border: 1px solid blue;
+    color: rebeccapurple;
+  }
+  
+  /* navegadores WebKit */
+  a:-webkit-any-link {
+    border: 1px solid blue;
+    color: rebeccapurple;
+  }
+
+section03{
+    background-color: green;
+    height: 25vh;
+    text-align: center;
+    border: 2px solid black;
+}
+
+section04{
+    background-color: lightblue;
+    height: 25vh;
+    text-align: center;
+    border: 2px solid black;
+}
+
+div,
+select {
+  margin: 0px;
+}
+
+/* Etiquetas para entradas marcadas */
+input:checked + label {
+  color: red;
+}
+
+/* Elemento Radio, cuando está marcado */
+input[type="radio"]:checked {
+  box-shadow: 0 0 0 3px orange;
+}
+
+/* Elemento Checkbox, cuando está marcado */
+input[type="checkbox"]:checked {
+  box-shadow: 0 0 0 3px hotpink;
+}
+
+/* Elementos Option, cuando se seleccionan */
+option:checked {
+  box-shadow: 0 0 0 3px lime;
+  color: red;
+}
+
+article2{
+    background-color: rebeccapurple;
+    height: 11vh;
+    text-align: left;
+    border: 2px solid black;
+    color: white;
+}
+
+
+section05{
+    background-color: green;
+    height: 25vh;
+    text-align: center;
+    border: 2px solid black;
+}
+
+section06{
+    background-color: lightblue;
+    height: 25vh;
+    text-align: center;
+    border: 2px solid black;
+}
+
+input:default {
+    box-shadow: 0 0 2px 1px coral;
+  }
+  
+  input:default + label {
+    color: coral;
+  }
+  
+
+
+section07{
+    background-color: green;
+    height: 25vh;
+    border: 2px solid black;
+}
+
+:dir(ltr) {
+    background-color: yellow;
+  }
+  
+  :dir(rtl) {
+    background-color: powderblue;
+  }
+  
+
+section08{
+    background-color: lightblue;
+    height: 25vh;
+    text-align: center;
+    border: 2px solid black;
+}
+
+input[type="text"]:disabled {
+    background: #ccc;
+  }
+
+section09{
+    background-color: green;
+    height: 25vh;
+    text-align: center;
+    border: 2px solid black;
+}
+
+div:empty {
+    outline: 2px solid deeppink;
+    height: 1em;
+}
+
+section10{
+    background-color: lightblue;
+    height: 25vh;
+    text-align: left;
+    border: 2px solid black;
+}
+
+input:enabled {
+    color: #2b2;
+  }
+  
+  input:disabled {
+    color: #aaa;
+  }
+  
+
+section11{
+    background-color: green;
+    height: 25vh;
+    text-align: center;
+    border: 2px solid black;
+}
+
+@page :first {
+    margin-left: 50%;
+    margin-top: 50%;
+  }
+  
+  p {
+    page-break-after: always;
+  }
+
+section12{
+    background-color: lightblue;
+    height: 25vh;
+    text-align: center;
+    border: 2px solid black;
+}
+
+p1:first-child {
+    color: lime;
+    background-color: black;
+    padding: 5px;
+  }
+
+  article2{
+    background-color: rebeccapurple;
+    height: 11vh;
+    text-align: left;
+    border: 2px solid black;
+    color: white;
+}
+
+section13{
+    background-color: green;
+    height: 25vh;
+    text-align: center;
+    border: 2px solid black;
+}
+
+p3:first-of-type {
+    color: red;
+    font-style: italic;
+  }
+
+section14{
+    background-color: lightblue;
+    height: 25vh;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.red-input:focus {
+    background: yellow;
+    color: red;
+  }
+  
+  .blue-input:focus {
+    background: yellow;
+    color: blue;
+  }
+  
+
+section15{
+    background-color: green;
+    height: 25vh;
+    text-align: center;
+    border: 2px solid black;
+}
+
+input, button {
+    margin: 1px;
+  }
+  
+  .focus-only:focus {
+    outline: 2px solid black;
+  }
+  
+  .focus-only:focus-visible {
+    outline: 4px dashed darkorange;
+  }
+  
+
+section16{
+    background-color: lightblue;
+    height: 25vh;
+    text-align: center;
+    border: 2px solid black;
+}
+
+form {
+    border: 1px solid;
+    color: gray;
+    padding: 4px;
+  }
+  
+  form:focus-within {
+    background: #ff8;
+    color: black;
+  }
+  
+  input {
+    margin: 1px;
+  }
+  
+
+article2{
+    background-color: rebeccapurple;
+    height: 11vh;
+    text-align: left;
+    border: 2px solid black;
+    color: white;
+}
+
+section17{
+    background-color: green;
+    height: 26vh;
+    text-align: center;
+    border: 2px solid black;
+}
+
+section18{
+    background-color: lightblue;
+    height: 26vh;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.joinBtn {
+    width: 10em;
+    height: 5ex;
+    background-color: gold;
+    border: 2px solid firebrick;
+    border-radius: 10px;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+}
+
+.joinBtn:hover {
+    background-color: bisque;
+}
+
+section19{
+    background-color: green;
+    height: 26vh;
+    text-align: left;
+    border: 2px solid black;
+}
+
+input:indeterminate + label1 {
+    background: lime;
+  }
+
+  
+section20{
+    background-color: lightblue;
+    height: 26vh;
+    text-align: left;
+    border: 2px solid black;
+}
+
+label {
+    display: block;
+    margin-top: 1em;
+}
+
+input:in-range {
+    background-color: palegreen;
+}
+
+article2{
+    background-color: rebeccapurple;
+    height: 15vh;
+    text-align: left;
+    border: 2px solid black;
+    color: white;
+}
+
+section21{
+    background-color: green;
+    height: 27vh;
+    text-align: center;
+    border: 2px solid black;
+}
+
+label {
+    display: block;
+    margin: 1px;
+    padding: 1px;
+  }
+  
+  .field {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  input:invalid {
+    background-color: #ffdddd;
+  }
+  
+  form:invalid {
+    border: 5px solid #ffdddd;
+  }
+  
+  input:valid {
+    background-color: #ddffdd;
+  }
+  
+  form:valid {
+    border: 1px solid #ddffdd;
+  }
+  
+  input:required {
+    border-color: #800000;
+    border-width: 3px;
+  }
+  
+  input:required:invalid {
+    border-color: #c00000;
+  }
+  
+section22{
+    background-color: lightblue;
+    height: 27vh;
+    text-align: left;
+    border: 2px solid black;
+}
+
+*:lang(en-US) {
+    outline: 2px solid deeppink;
+}
+
+
+section23{
+    background-color: green;
+    height: 27vh;
+    text-align: center;
+    border: 2px solid black;
+}
+
+p {
+    font-weight: bold;
+}
+
+li:last-child {
+    border: 2px solid orange;
+}
+
+section24{
+    background-color: lightblue;
+    height: 27vh;
+    text-align: left;
+    border: 2px solid black;
+}
+
+dt {
+    font-weight: bold;
+}
+
+dd {
+    margin: 3px;
+}
+
+dd:last-of-type {
+    border: 2px solid orange;
+}
+
+
+article2{
+    background-color: rebeccapurple;
+    height: 11vh;
+    text-align: left;
+    border: 2px solid black;
+    color: white;
+}
+
+section25{
+    background-color: green;
+    height: 27vh;
+    text-align: center;
+    border: 2px solid black;
+}
+
+@page :left {
+    margin: 2in 3in;
+  }
+
+section26{
+    background-color: lightblue;
+    height: 27vh;
+    text-align: center;
+    border: 2px solid black;
+}
+
+a:link {
+    background-color: gold;
+    color: green;
+  }
+
+section27{
+    background-color: green;
+    height: 27vh;
+    text-align: center;
+    border: 2px solid black;
+}
+
+a:local-link {
+    color: green;
+  }
+  
+
+section28{
+    background-color: lightblue;
+    height: 27vh;
+    text-align: center;
+    border: 2px solid black;
+}
+
+ol {
+    list-style-type: upper-alpha;
+    color: darkblue;
+}
+
+/* stylelint-disable-next-line selector-pseudo-class-no-unknown */
+:is(ol, ul, menu:unsupported) :is(ol, ul) {
+    color: green;
+}
+
+:is(ol, ul) :is(ol, ul) ol {
+    list-style-type: lower-greek;
+    color: chocolate;
+}
+
+article2{
+    background-color: rebeccapurple;
+    height: 11vh;
+    text-align: center;
+    border: 2px solid black;
+    color: white;
+}
+
+section29{
+    background-color: green;
+    height: 27vh;
+    text-align: center;
+    border: 2px solid black;
+}
+
+p:not(.irrelevant) {
+    font-weight: bold;
+}
+
+p > strong,
+p > b.important {
+    color: crimson;
+}
+
+p > :not(strong, b.important) {
+    color: darkmagenta;
+}
+
+section30{
+    background-color: lightblue;
+    height: 27vh;
+    text-align: center;
+    border: 2px solid black;
+}
+
+p {
+    font-weight: bold;
+}
+
+li1:nth-child(-n + 3) {
+    border: 2px solid orange;
+    margin-bottom: 1px;
+}
+
+li:nth-child(even) {
+    background-color: lightyellow;
+}
+
+
+section31{
+    background-color: green;
+    height: 27vh;
+    text-align: center;
+    border: 2px solid black;
+}
+
+/* Odd paragraphs */
+p3:nth-of-type(2n + 1) {
+    color: red;
+  }
+
+  /* Odd paragraphs */
+p4:nth-of-type(2n + 1) {
+    color: red;
+  }
+  
+
+  
+  /* First paragraph */
+  p:nth-of-type(1) {
+    font-weight: bold;
+  }
+  
+  /* This will match the 3rd paragraph as it will match elements which are 2n+1 AND have a class of fancy.
+  The second paragraph has a class of fancy but is not matched as it is not :nth-of-type(2n+1) */
+  p.fancy:nth-of-type(2n + 1) {
+    text-decoration: underline;
+  }
+
+section32{
+    background-color: lightblue;
+    height: 27vh;
+    text-align: center;
+    border: 2px solid black;
+}
+
+table {
+    border: 1px solid blue;
+  }
+  
+  /* Selects the last three elements */
+  tr:nth-last-child(-n + 3) {
+    background-color: pink;
+  }
+  
+  /* Selects every element starting from the second to last item */
+  tr:nth-last-child(n + 2) {
+    color: blue;
+  }
+  
+  /* Select only the last second element */
+  tr:nth-last-child(2) {
+    font-weight: 600;
+  }
+  
+
+article2{
+    background-color: rebeccapurple;
+    height: 12vh;
+    text-align: left;
+    border: 2px solid black;
+    color: white;
+}
+
+section33{
+    background-color: green;
+    height: 27vh;
+    text-align: center;
+    border: 2px solid black;
+}
+
+span:nth-last-of-type(2) {
+    background-color: lime;
+  }
+
+section34{
+    background-color: lightblue;
+    height: 27vh;
+    text-align: center;
+    border: 2px solid black;
+}
+
+main :only-child {
+    color: red;
+  }
+  
+
+section35{
+    background-color: green;
+    height: 27vh;
+    text-align: center;
+    border: 2px solid black;
+}
+
+main1 :only-of-type {
+    color: red;
+  }
+  
+
+section36{
+    background-color: lightblue;
+    height: 27vh;
+    text-align: center;
+    border: 2px solid black;
+}
+
+/* Selecciona cualquier opción <input> */
+input:optional {
+    border: 1px dashed black;
+  }
+
+article2{
+    background-color: rebeccapurple;
+    height: 12vh;
+    text-align: left;
+    border: 2px solid black;
+    color: white;
+}
+
+section37{
+    background-color: green;
+    height: 27vh;
+    text-align: center;
+    border: 2px solid black;
+}
+
+li {
+    list-style: none;
+    margin-bottom: 1em;
+  }
+  
+  input {
+    border: 1px solid black;
+  }
+  
+  input:in-range {
+    background-color: rgba(0, 255, 0, 0.25);
+  }
+  
+  input:out-of-range {
+    background-color: rgba(255, 0, 0, 0.25);
+    border: 2px solid red;
+  }
+  
+  input:in-range + label::after {
+    content: 'bien.';
+  }
+  
+  input:out-of-range + label::after {
+    content: '¡fuera de rango!';
+  }
+  
+
+section38{
+    background-color: lightblue;
+    height: 27vh;
+    text-align: center;
+    border: 2px solid black;
+}
+
+
+section39{
+    background-color: green;
+    height: 27vh;
+    text-align: center;
+    border: 2px solid black;
+}
+
+label {
+    display: block;
+    margin-top: 0em;
+}
+
+input:placeholder-shown {
+    background-color: ivory;
+    border: 2px solid darkorange;
+    border-radius: 0px;
+}
+
+section40{
+    background-color: lightblue;
+    height: 27vh;
+    text-align: center;
+    border: 2px solid black;
+}
+
+:playing {
+    border: 5px solid green;
+  }
+
+section41{
+    background-color: green;
+    height: 27vh;
+    text-align: center;
+    border: 2px solid black;
+}
+
+:paused {
+    border: 5px solid orange;
+  }
+
+section42{
+    background-color: lightblue;
+    height: 27vh;
+    text-align: center;
+    border: 2px solid black;
+}
+
+label,
+input[type='submit'] {
+    display: block;
+    margin-top: 1em;
+}
+
+*:read-only {
+    font-weight: bold;
+    color: none;
+}
+
+section43{
+    background-color: green;
+    height: 27vh;
+    text-align: center;
+    border: 2px solid black;
+}
+
+label,
+input[type='submit'] {
+    display: block;
+    margin-top: 1em;
+}
+
+*:read-write {
+    background-color: ivory;
+    border: 2px solid darkorange;
+    border-radius: 0px;
+}
+
+section44{
+    background-color: lightblue;
+    height: 27vh;
+    text-align: center;
+    border: 2px solid black;
+}
+
+label {
+    display: block;
+    margin-top: 1em;
+}
+
+.req {
+    color: red;
+}
+
+*:required {
+    background-color: gold;
+}
+
+
+section45{
+    background-color: green;
+    height: 27vh;
+    text-align: center;
+    border: 2px solid black;
+}
+
+:root {
+    --main-color: hotpink;
+    --pane-padding: 5px 42px;
+  }
+
+section46{
+    background-color: lightblue;
+    height: 27vh;
+    text-align: center;
+    border: 2px solid black;
+}
+
+section47{
+    background-color: green;
+    height: 27vh;
+    text-align: center;
+    border: 2px solid black;
+}
+
+section48{
+    background-color: lightblue;
+    height: 27vh;
+    text-align: center;
+    border: 2px solid black;
+}
+
+input + span {
+    position: relative;
+  }
+  
+  input + span::before {
+    position: absolute;
+    right: -20px;
+    top: 5px;
+  }
+  
+  input:invalid {
+    border: 2px solid red;
+  }
+  
+  input:invalid + span::before {
+    content: "✖";
+    color: red;
+  }
+  
+  input:valid + span::before {
+    content: "✓";
+    color: green;
+  }
+  
+section49{
+    background-color: green;
+    height: 35vh;
+    text-align: center;
+    border: 2px solid black;
+}
+
+p:target {
+    background-color: gold;
+  }
+  
+  /* Add a pseudo-element inside the target element */
+  p:target::before {
+    font: 70% sans-serif;
+    content: "►";
+    color: limegreen;
+    margin-right: 0.25em;
+  }
+  
+  /* Style italic elements within the target element */
+  p:target i {
+    color: red;
+  }
+  
+
+section50{
+    background-color: lightblue;
+    height: 35vh;
+    text-align: center;
+    border: 2px solid black;
+}
+
+p {
+    font-weight: bold;
+}
+
+a:visited {
+    color: forestgreen;
+    text-decoration-color: hotpink;
+}
+
+
+
